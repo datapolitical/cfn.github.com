@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>A Week in Startup Life</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Chris Nicholson" />
+  
+    <meta name="description" content="My favorite part about working at a 3 person startup is that in any given week, I get to work on different challenges across the entire web development stack from server infrastructure to CSS. Here's a snapshot of last week." />
+  
+  <link rel="stylesheet" media="screen and (min-device-width: 481px)" href="/stylesheets/screen.css" />
+  <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="/stylesheets/mobile.css">
+  <script type="text/javascript" src="http://use.typekit.com/dwi8ggm.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- Media queries and HTML5 for old IE -->
+  <!--[if lt IE 9]>
+  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27958874-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+
+<body>
+  <div id='wrapper'>
+    <div id='header' class='tk-myriad-pro' itemscope itemtype="http://data-vocabulary.org/Person">
+      <div id='profile'>
+        <a href='/'>
+          <img alt='Chris Nicholson' src='/images/chris-nicholson-color.jpg' itemprop='photo' id='profile-image'/>
+        </a>
+      </div>
+      <div class='row'>
+        <div class='left-column'>
+          &nbsp;
+        </div>
+    
+        <div class='center-column'>            
+          <header itemprop='name'><a href='/' itemprop="url">Chris Nicholson</a></header>
+          <div class='subtitle'>
+		<span itemprop="title">2009 </span><a href='http://usc.edu/' itemprop='affiliation'>USC</a> grad. Technologist, politico, college football addict.
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id='nav'>
+      <div class='row'>
+        <div class='left-column'>&nbsp;</div>
+        <div class='center-column'>
+          <ul>
+            <li><a href='/'>Home</a></li>
+            <li><a href='http://www.about.me/chrisfnicholson' rel='author'>About.me</a></li>
+       <!-- <li><a href='/projects.html'>Projects</a></li> -->
+	    <li><a href='http://www.chrisnicholson.tel'>Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class='page'>
+  <div class='row' id='container'>
+    <div class='left-column' id='date-column'>
+      <div id='publish-date' class='tk-myriad-pro'></div>
+    </div>
+    <div class='center-column' id='content'>
+      <article>
+        <h1>A Week in Startup Life</h1>
+        <p>My favorite part about working at a 3 person startup (<a href='http://gopollgo.com/'>GoPollGo</a>) is that in any given week, I get to work on different challenges across the entire web development stack from server infrastructure to CSS. Here&#8217;s a snapshot of last week.</p>
+
+<h2 id='monday'>Monday</h2>
+
+<p>Worked with <a href='http://twitter.com/bensign'>Ben</a> and <a href='http://twitter.com/kompfner'>Paul</a> to fix front-end bugs from the redesign of our mobile site, which we launched the previous Friday.</p>
+
+<h2 id='tuesday'>Tuesday</h2>
+
+<p>Worked with Ben on improving our page load times to increase our servers&#8217; requests per second by optimizing some database queries, rewriting our JSON serialization to be more efficient in Ruby, and eliminating data unnecessary for the initial page load. By 10pm, we achieved a tenfold increase in requests per second from the beginning of the day.</p>
+
+<h2 id='wednesday'>Wednesday</h2>
+
+<p>Worked on visually polishing the mobile site and fixing the remaining bugs. <a href='http://gopollgo.com/blog/announcing-our-partnership-with-twitter'>Launched with Twitter Expanded Tweets</a> after 9 months of business development. Celebrated with Ben and Paul over beers at the <a href='http://www.yelp.com/biz/antonios-nut-house-palo-alto'>Nuthouse</a>.</p>
+
+<h2 id='thursday'>Thursday</h2>
+
+<p>We&#8217;ve been hit by a spammer. Declared war on Viagra related polls. Researched spam filtering to develop a plan. Decided to try using a <a href='http://lesseverything.com/blog/archives/2008/10/08/less-reverse-captcha/'>reverse CAPTCHA</a> as a first line of defense. Developed an improved admin interface for moderating polls.</p>
+
+<h2 id='friday'>Friday</h2>
+
+<p>Developed a honeypot to filter spam, where we add <code>display: none</code> to the first option&#8217;s <code>&lt;input&gt;</code> and ensure that it&#8217;s left blank. It worked! Got <a href='http://mashable.com/2012/06/15/gopollgo/'>featured on Mashable for Expanded Tweets integration</a>.</p>
+
+<h2 id='saturday'>Saturday</h2>
+
+<p>While eating brunch, got a message from Ben that someone had exploited a Javascript injection on our site. The exploit was non-malicious and Ben had plugged the hole by the time I got to my computer. Upon further investigation, I discovered the root cause of the bug appeared to be a vulnerability in an open source project we use. Emailed the project maintainer. Details to follow once it has been patched.</p>
+      </article>
+      <h3 class='box' id='postscript'>
+        <img src='/images/sam-grossberg.jpg' class='small-avatar'>
+        If you read this far, you should probably <a href='http://twitter.com/samgrossberg'>follow me on Twitter</a>.
+      </h3>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'samgrossberg';
+        var disqus_identifier = '/samgro_posts/2012-06-18-1-week-in-startup-life.html';
+        var disqus_url = 'http://samgrossberg.com/samgro_posts/2012-06-18-1-week-in-startup-life.html';
+        // var disqus_developer = 1;
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+    <div class='right-column' id='social-buttons'>
+      <!-- Tweet Button -->
+      <div class='social-button'>
+        <a href="https://twitter.com/share"
+          class="twitter-share-button"
+          data-related="samgrossberg" data-via="samgrossberg" data-lang="en" data-size="medium" data-count="vertical" data-url="http://samgrossberg.com/samgro_posts/2012-06-18-1-week-in-startup-life.html"></a>
+      </div>
+      
+      <!-- Plus One Button -->
+      <div class='social-button'>
+        <g:plusone size="tall"></g:plusone>
+      </div>
+      
+      <!-- Like Button -->
+      <div class='social-button' id='like-button'>
+        <div class="fb-like" data-href="http://samgrossberg.com/samgro_posts/2012-06-18-1-week-in-startup-life.html" data-send="true" data-layout="box_count" data-width="54" data-show-faces="false" data-font="arial" data-colorscheme="dark"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+(function(w, d, s) {
+  function go(){
+    var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+	  if (d.getElementById(id)) {return;}
+	  js = d.createElement(s); js.src = url; js.id = id;
+	  fjs.parentNode.insertBefore(js, fjs);
+	};
+    load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk');
+    load('https://apis.google.com/js/plusone.js', 'gplus1js');
+    load('//platform.twitter.com/widgets.js', 'tweetjs');
+  }
+  if (w.addEventListener) { w.addEventListener("load", go, false); }
+  else if (w.attachEvent) { w.attachEvent("onload",go); }
+}(window, document, 'script'));
+</script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+<script>
+  $(document).ready(function() {
+    // Fix social buttons on scroll down
+    var $el = $('#social-buttons');
+    var top = $el.offset().top - parseFloat($el.css('marginTop').replace(/auto/, 0));
+    $(window).scroll(function (event) {
+      // what the y position of the scroll is
+      var y = $(this).scrollTop();
+
+      // whether that's below the form
+      if (y >= top) {
+        // if so, add the fixed class
+        $el.addClass('fixed');
+      } else {
+        // otherwise remove it
+        $el.removeClass('fixed');
+      }
+    });
+  });
+</script>
+    
+    <div id='push'></div>
+  </div>
+  
+  <div id='footer'>
+    <div class='row'>
+      <div class='left-column'>&nbsp;</div>
+      <div class='center-column'>
+        Email <a href='mailto:&#99;&#104&#114&#105&#115&#64&#99&#104&#114&#105&#115&#102&#110&#105&#99&#104&#111&#108&#115&#111&#110&#46&#99&#111&#109;'>&#99;&#104&#114&#105&#115&#64&#99&#104&#114&#105&#115&#102&#110&#105&#99&#104&#111&#108&#115&#111&#110&#46&#99&#111&#109</a>
+	| Fork <a href='http://www.github.com/datapolitical'>datapolitical</a>
+        | Follow <a href='http://twitter.com/chrisfnicholson'>@chrisfnicholson</a>
+      <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Designed by <a href="http://www.github.com/samgro">Sam Grossberg</a>
+     </div>
+    </div>
+  </div>
+  <script>
+  // Make all external links target='_blank'
+  var links = document.links;
+
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+     if (links[i].hostname != window.location.hostname) {
+         links[i].target = '_blank';
+     }
+  }
+  </script>
+</body>
+</html>
