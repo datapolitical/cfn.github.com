@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Dr Jekyll and'
-description: 'or: How I Learned to Stop Worrying and Love the Blog' 
+description: 'or How I Learned to Stop Worrying and Love the Blog' 
 ---
 This post has been a long time coming. It’s easy to resist the urge to create and just be content curating the work of others. [Scoble](http://www.scobleizer.com) (among many others) has discussed at length about the benefits of curation over creation. That being said, he also has a blog. 
 
