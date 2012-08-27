@@ -1,13 +1,8 @@
 ---
 layout: post
-<<<<<<< HEAD
-title: 'Please just work'
-description: 'here'
-=======
 title: "I promise, this is not about blogging"
  
 description: "How mobile has changed the way we think about composition" 
->>>>>>> double quotes?
 ---
 
 I am writing this on my iPhone (full disclosure, this will be partially about blogging). It feels incredibly odd, like eating pancakes with a caviar fork. I love this device, but complex content creation is not its strong suit. 
