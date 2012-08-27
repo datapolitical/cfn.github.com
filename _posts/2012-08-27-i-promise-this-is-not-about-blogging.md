@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 'I promise, this is not about blogging' 
+title: 'I promise, this isn't about blogging'
+ 
 description: 'How mobile has changed the way we think about composition' 
 ---
 
