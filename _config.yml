@@ -1,3 +1,4 @@
 auto: true
 permalink: /:title
-baseurl: /cfn.github.com/
+baseurl: /cfn.github.com
+url: http://datapolitical.github.com
