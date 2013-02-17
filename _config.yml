@@ -1,5 +1,2 @@
 auto: true
-server: true
-pygments: true
-permalink: none
-baseurl: ""
+permalink: /:title
