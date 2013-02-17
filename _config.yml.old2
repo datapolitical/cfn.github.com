@@ -1,3 +1,2 @@
 auto: true
 permalink: /:title
-destination: ../public_html
