@@ -1,2 +1,4 @@
 auto: true
 permalink: /:title
+baseurl: /cfn.github.com
+
