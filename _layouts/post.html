@@ -69,6 +69,10 @@ layout: default
   else if (w.attachEvent) { w.attachEvent("onload",go); }
 }(window, document, 'script'));
 </script>
+<script type="text/javascript">
+FB.Event.subscribe('edge.create', function(href, widget) { _gaq.push(['_trackSocial', 'Facebook', 'Like', href]); });
+FB.Event.subscribe('edge.remove', function(href, widget) { _gaq.push(['_trackSocial', 'Facebook', 'Unlike', href]); });
+</script>
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
 <script>
   $(document).ready(function() {
